@@ -13,7 +13,7 @@ const ChatArea = () => {
   const [history, setHistory] = useState([
     {
       role: "model",
-      parts: "Great to meet you. Im Gemini, your chatbot.",
+      parts: "Great to meet you. Im Memeitizer, your chatbot.",
     },
   ]);
   const genAI = new GoogleGenerativeAI(process.env.NEXT_PUBLIC_APIKEY);
@@ -90,7 +90,7 @@ const ChatArea = () => {
     setHistory([
       {
         role: "model",
-        parts: "Great to meet you. Im Gemini, your chatbot.",
+        parts: "Great to meet you. Im Memeitizer, your chatbot.",
       },
     ]);
     setinput("");
@@ -118,7 +118,7 @@ const ChatArea = () => {
               </div>
             </div>
             <div className="chat-header mx-2 font-semibold opacity-80">
-              {item.role === "model" ? "Gemini" : "You"}
+              {item.role === "model" ? "Memeitizer" : "You"}
             </div>
             <div
               className={`chat-bubble font-medium ${
