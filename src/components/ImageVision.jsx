@@ -11,7 +11,7 @@ const ImageVision = () => {
   const [input, setinput] = useState("");
   const [loading, setloading] = useState(false);
   const [text, settext] = useState(
-    "Hola ! I am Gemini. Pick an image and ask a question!"
+    "Hola ! I am Memeitizer. Pick an image and ask a question!"
   );
   const genAI = new GoogleGenerativeAI(process.env.NEXT_PUBLIC_APIKEY);
   useEffect(() => {
@@ -86,7 +86,7 @@ const ImageVision = () => {
             </div>
           </div>
           <div className="chat-header mx-2 font-semibold opacity-80">
-            Gemini
+            Memeitizer
           </div>
           <div className="chat-bubble font-medium chat-bubble-primary">
             {loading ? (
