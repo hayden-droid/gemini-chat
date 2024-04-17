@@ -3,28 +3,28 @@ import "./globals.css";
 import Swap from "@/components/Swap";
 
 export const metadata: Metadata = {
-  title: "Gemini PRO",
-  description: "Chat with Gemini Pro AI",
+  title: "Memeitizer PRO",
+  description: "Chat with Memeitizer Pro AI",
   manifest: "/manifest.json",
   metadataBase: new URL("https://geminix-pro.vercel.app/"),
   openGraph: {
     type: "website",
     url: "https://geminix-pro.vercel.app/",
-    title: "GeminiPRO Chat AI",
+    title: "Memeitizer PRO Chat AI",
 
-    description: "Chat with Gemini Pro AI",
+    description: "Chat with Memeitizer Pro AI",
     images: [
       {
         url: "/android-chrome-192x192.png",
         width: 192,
         height: 192,
-        alt: "GeminiPRO Chat AI",
+        alt: "Memeitizer PRO Chat AI",
       },
       {
         url: "/android-chrome-512x512.png",
         width: 512,
         height: 512,
-        alt: "GeminiPRO Chat AI",
+        alt: "Memeitizer PRO Chat AI",
       },
     ],
   },
